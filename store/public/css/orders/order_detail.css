@@ -1,0 +1,159 @@
+.order-detail-wrap{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order-detail-status{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid #353434;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.order-detail-status img{
+    width: 25px;
+    margin-top: 2.5px;
+    margin-right: 5px;
+}
+
+.ship-success{
+    color: #009F4D;
+}
+
+.confirm-waiting{
+    color: orange;
+}
+.order-detail-product{
+    width: 90%;
+    margin-left: 5%;
+    height: 120px;
+    border-bottom: 1px solid #353434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image{
+    height: 100px;
+    width: 100px;
+}
+
+.product-image img{
+    width: 100px;
+}
+
+.product-info{
+    height: 100px;
+    width: calc(75% - 100px);
+}
+
+.info-detail{
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.product-category{
+    color: dimgray;
+}
+
+.product-title{
+    font-weight: bold;
+}
+.total-price{
+    height: 100px;
+    width: 25%;
+    display: table;
+}
+
+.total-price span{
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bolder;
+    color: #401D83;
+}
+
+.order-detail-bottom{
+    width: 90%;
+    margin-left: 5%;
+    height: 60px;
+    display: table;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-pay{
+    width: 50%;
+    height: 60px;
+    display: table-cell;
+    text-align: left; 
+    vertical-align: middle;
+    font-size: large;
+
+}
+
+.total-pay span{
+    color: #401D83;
+}
+.order-button{
+    width: 50%;
+    height: 60px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.order-button button{
+    font-size: medium;
+    padding: 10px 15px 10px 15px;
+}
+
+.order-success button{
+    background-color: #68D69D;
+    color: #401D83;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.order-cancel button{
+    background-color: #FFFFFF;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.order-success button:hover{
+    background-color: #009F4D;
+    color: #FFFFFF;
+}
+
+.order-cancel button:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (min-width: 768px)
+                    and (max-width: 992px){
+    .order-detail-wrap{
+        margin-left: 8.33%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .order-detail-wrap{
+        margin-left: 8.33%;
+    }
+}

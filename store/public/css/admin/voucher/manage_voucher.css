@@ -1,0 +1,35 @@
+.body {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+tr:first-child {
+    background-color: #ccc;
+}
+
+tr:first-child:hover {
+    cursor: default;
+    background-color: #ccc;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+  
+tr:hover {
+    cursor: pointer;
+    background-color: #D6EEEE;
+}
+
+.list-voucher {
+    width: 90%;
+    margin: 32px auto;
+}

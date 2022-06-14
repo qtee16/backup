@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAddA"
+        android:onClick="addA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Add A"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="addB"
+        android:id="@+id/btnAddB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="16dp"
+        android:text="Add B"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="addC"
+        android:id="@+id/btnAddC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:text="Add C"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="popA"
+        android:id="@+id/btnPopA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="87dp"
+        android:text="Pop A"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="removeA"
+        android:id="@+id/btnRemoveA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:text="Remove A"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnRemoveB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="70dp"
+        android:onClick="removeB"
+        android:text="Remove B"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="removeC"
+        android:id="@+id/btnRemoveC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="11dp"
+        android:text="Remove C"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="228dp"
+        android:onClick="back"
+        android:text="Back"
+        tools:ignore="OnClick" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnBack"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp">
+
+    </FrameLayout>
+
+</RelativeLayout>

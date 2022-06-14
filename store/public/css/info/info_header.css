@@ -1,0 +1,33 @@
+.header {
+    top: 0;
+    z-index: 1000;
+}
+
+.login {
+    display: inline-block;
+    position: relative;
+}
+
+.login p {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 4px;
+    color: #401D83;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-wrap {
+    padding-left: 16px;
+}
+
+#logo-wrap {
+    float: left;
+}
+
+.mobile-cart-account {
+    margin-top: 6px;
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "282158768796",
+    "project_id": "signinkoolsoft",
+    "storage_bucket": "signinkoolsoft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282158768796:android:f3d7095b704182af0dc359",
+        "android_client_info": {
+          "package_name": "com.example.signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282158768796-be4gaug33rbj4apqempl4r1gu8h8teul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.signup",
+            "certificate_hash": "f49f834de4bfd6135f1a2c634513da34ea9982ae"
+          }
+        },
+        {
+          "client_id": "282158768796-elvg0rm9nqikqah93snv88kkqc0frke3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHZmfzqfdMAH3dwpyMv_4fAZdvG5u4Bog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282158768796-elvg0rm9nqikqah93snv88kkqc0frke3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

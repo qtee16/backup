@@ -1,0 +1,110 @@
+#left-bar{ 
+    background-color: #0a0f55;
+    color: #FFFFFF;
+}
+
+#homepage{
+    height: 10vh;
+    text-align: center;
+    display: table;
+    background-color:  #414695;
+}
+
+#homepage a{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: xx-large;
+    font-family: logo_font;
+    color: #FFFFFF;
+}
+
+.list-managements{
+    height: 7vh;
+    cursor: pointer;
+    display: table;
+}
+
+.leftbar-icon-wrap{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
+
+.leftbar-title-wrap{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+
+#list-order-wrap{
+    display: none;
+}
+
+#list-product-wrap{
+    display: none;
+}
+
+#list-event-wrap{
+    display: none;
+}
+
+#list-voucher-wrap{
+    display: none;
+}
+
+.leftbar-extend-wrap{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+    width: 20%;
+}
+
+.leftbar-extend-wrap img{
+    width: 2vh;
+}
+
+.leftbar-icon-wrap img{
+    width: 3vh;
+}
+
+.leftbar-title-wrap span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.leftbar-small-title-wrap{
+    height: 5vh;
+    cursor: pointer;
+    font-size: small;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20%;
+}
+
+@media only screen and (max-width: 768px){
+    #left-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    #left-bar{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #left-bar{
+        display: block;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+        overflow-y: auto;
+    }
+}

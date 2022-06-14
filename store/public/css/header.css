@@ -1,0 +1,422 @@
+@media only screen and (max-width: 768px){
+    .header{
+        background-color: #68D69D;
+        height: 100px;
+        /* margin-top: -10px; */
+        position: fixed;
+        z-index: 3;
+        display: inline-block;
+    }
+    
+    .main-header{
+        height: 100px;
+    }
+    
+    .logo{
+        height: 50px;
+    }
+
+    #logo-wrap{
+        position: relative;
+        margin-left: 5%;
+        height: 40px;
+        display: inline-block;
+        width: 45%;
+    }
+
+    #logo-wrap p{
+        width: fit-content;
+        font-family: logo_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        color: #401D83;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        
+    }
+    
+    .mobile-cart-account{
+        position: relative;
+        height: 40px;
+        width: 40%;
+        display: inline-block;
+        text-align: right;
+    }
+    .cart{
+        position: relative;
+        text-align: center;
+        height: 40px;
+        display: inline-block;
+        margin-left: 10%;
+    }
+    
+    .cart img{
+        height: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    .login{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        height: 40px;
+    }
+
+    .login img{
+        height: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    .circle {
+        background: #401D83;
+        border: none;
+        border-radius: 50%;
+        padding: 0px 5px 0px 5px;
+        vertical-align: top;
+        color: #FFFFFF;
+        margin-left: -10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .search-wrap{
+        height: 40px;
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    .input-wrap{
+        display: inline-block;
+        height: 40px;
+        width: 70%;
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    .input-wrap input{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px 0px 0px 4px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    
+    .button-wrap{
+        display: inline-block;
+        width: 20%;
+        height: 40px;
+    }
+    
+    .button-wrap button{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: #009F4D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 4px 4px 0px;
+        font-size: 16px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #search-btn{
+        display: none;
+    }
+
+    .login-cart{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px)
+                    and (max-width: 992px){
+    .header{
+        background-color: #68D69D;
+        height: 80px;
+        margin-top: 0;
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    .main-header{
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 8.33%;
+    }
+    
+    .mobile-cart-account{
+        display: none;
+    }
+    .logo p{
+        width: fit-content;
+        font-family: logo_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        color: #401D83;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+    
+    .search-wrap{
+        height: 40px;
+        margin-top: 5px;
+    }
+    
+    .input-wrap{
+        display: inline;
+        height: 40px;
+        width: 80%;
+    }
+    .input-wrap input{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px 0px 0px 4px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    
+    .button-wrap{
+        display: inline;
+        height: 40px;
+    }
+    
+    .button-wrap button{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: #009F4D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 4px 4px 0px;
+        font-size: 16px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .button-wrap button img{
+        display: none;
+    }
+    
+    .login-cart{
+        height: 40px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login{
+        display: table;
+        width: 80%;
+        height: 40px;
+        margin-top: 0;
+    }
+    
+    .cart{
+        display: inline-block;
+        width: 20%;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .login img{
+        height: 30px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    
+    .login span{
+        color: #401D83;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .cart img{
+        position: absolute;
+        height: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    .circle {
+        position: absolute;
+        background: #401D83;
+        border: none;
+        border-radius: 50%;
+        padding: 0px 5px 0px 5px;
+        vertical-align: top;
+        color: #FFFFFF;
+        margin-left: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .header{
+        background-color: #68D69D;
+        height: 80px;
+        margin-top: 0;
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    .main-header{
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 8.33%;
+    }
+    
+    .mobile-cart-account{
+        display: none;
+    }
+    .logo p{
+        width: fit-content;
+        font-family: logo_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        color: #401D83;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+    
+    .search-wrap{
+        height: 40px;
+        margin-top: 5px;
+    }
+    
+    .input-wrap{
+        display: inline;
+        height: 40px;
+        width: 80%;
+    }
+    .input-wrap input{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px 0px 0px 4px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    
+    .button-wrap{
+        display: inline;
+        height: 40px;
+    }
+    
+    .button-wrap button{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        background: #009F4D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px 4px 4px 0px;
+        font-size: 16px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .button-wrap button img{
+        margin-right: 5px;
+    }
+    
+    .login-cart{
+        height: 40px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .login{
+        display: block;
+        position: relative;
+        width: 64%;
+        height: 40px;
+        margin-top: 0;
+    }
+    
+    .cart{
+        display: inline-block;
+        width: 20%;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .login img{
+        height: 30px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    
+    .login span{
+        color: #401D83;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    .cart img{
+        position: absolute;
+        height: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    .circle {
+        position: absolute;
+        background: #401D83;
+        border: none;
+        border-radius: 50%;
+        padding: 0px 5px 0px 5px;
+        vertical-align: top;
+        color: #FFFFFF;
+        margin-left: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

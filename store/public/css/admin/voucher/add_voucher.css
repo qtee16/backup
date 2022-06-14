@@ -1,0 +1,80 @@
+.body::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.body {
+    background: #fff;
+    margin: 32px auto;
+    float: none;
+    padding: 16px 0;
+}
+
+.body .title {
+    width: 100%;
+    margin: 16px auto 64px auto;
+    text-align: center;
+}
+
+.wrap-input {
+    margin: 16px 10%;
+}
+
+.wrap-input label {
+    width: 28%;
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.wrap-input input {
+    padding: 0 16px;
+    height: 40px;
+    width: 60%;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+.wrap-input select {
+    padding: 4px 8px;
+}
+
+.wrap-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-submit input {
+    padding: 8px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 32px 0;
+}
+
+.wrap-submit input:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .wrap-input label {
+        display: block;
+        width: 100%;
+    }
+
+    .wrap-input input {
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .wrap-input select {
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+}
+
+@media only screen and (min-width: 992px) {
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgObject"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/picture"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgObject"
+        android:text="Object Name"
+        android:textColor="#25CF20"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imgObject"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgEdit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/edit"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/imgDel"/>
+
+    <ImageView
+        android:id="@+id/imgDel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/delete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 768px){
+    #content{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    #content{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #head-bar{
+        position: fixed;
+        z-index: 2;
+        margin-left: 16.66%;
+    }
+
+    #content{
+        position: relative;
+        margin-left: 16.66%;
+        margin-top: 10vh;
+    }
+}

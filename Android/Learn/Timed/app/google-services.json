@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216603093298",
+    "project_id": "timed-a9bb0",
+    "storage_bucket": "timed-a9bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216603093298:android:6d72a2973faeb81d178f2b",
+        "android_client_info": {
+          "package_name": "com.example.timed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216603093298-5ed72ihvgg6as8ab0r3d7u5aauujts4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXV7gmboTTbXXu_0hj0MaH37bHx25drtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216603093298-5ed72ihvgg6as8ab0r3d7u5aauujts4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#player1, #player2 {
+    flex: 1;
+    text-align: center;
+}
+#ground {
+    flex: 2;
+    text-align: center;
+}
+
+#ground ul {
+    display: inline-block;
+}
+
+#ground ul + ul {
+    margin-left: 16px;
+}
+
+.player1__cards, .player2__cards, .player1__card, .player2__card {
+    list-style-type: none;
+}

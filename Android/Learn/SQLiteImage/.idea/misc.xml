@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Android/Learn/SQLiteImage/app/src/main/res/layout/activity_add_object.xml" value="0.24728260869565216" />
+        <entry key="..\:/Code/Android/Learn/SQLiteImage/app/src/main/res/layout/activity_edit_object.xml" value="0.2246376811594203" />
+        <entry key="..\:/Code/Android/Learn/SQLiteImage/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Code/Android/Learn/SQLiteImage/app/src/main/res/layout/dialog_del_confirm.xml" value="0.264" />
+        <entry key="..\:/Code/Android/Learn/SQLiteImage/app/src/main/res/layout/object_row.xml" value="0.2341485507246377" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
